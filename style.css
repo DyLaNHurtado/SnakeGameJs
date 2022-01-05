@@ -1,0 +1,55 @@
+
+.game{
+    vertical-align: middle;
+    box-shadow: 2vmin 2vmin 2vmin 2vmin #282828;
+    border: 4vmin ridge rgb(116, 2, 93);
+    display: table;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #572273;
+    opacity: 1;
+    background-image:  radial-gradient(#fffcb6 2px, transparent 2px), radial-gradient(#fffcb6 2px, #572273 2px);
+    background-size: 80px 80px;
+    background-position: 0 0,40px 40px;
+}
+
+#screen{
+
+    display: table-cell;
+    vertical-align: middle;
+    border: 10px inset white;
+    
+}
+button{
+    
+    display: table-cell;
+    vertical-align: middle;
+    width: 33%;
+    background-color: rgb(157, 253, 133);
+    font-family: 4px Verdana, sans-serif;
+    font-weight: bold;
+
+}
+#panelButtons{
+
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    border: 10px inset white; 
+    
+}
+
+h1{
+    font: 70px sans-serif;
+    font-style: oblique;
+    color: rgb(240, 127, 180);
+    font-weight: bold;
+}
